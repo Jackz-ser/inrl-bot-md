@@ -1,6 +1,6 @@
-const ddb = require('../lib/inrl')
+const ddb = require('../lib/anjali')
 
-ddb.bot(
+ddb.anjali(
 	{
 		pattern: 'ping ?(.*)',
 		fromMe: true,
